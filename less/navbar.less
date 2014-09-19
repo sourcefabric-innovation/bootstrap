@@ -273,8 +273,8 @@
     > li {
       float: left;
       > a {
-        padding-top:    @navbar-padding-vertical;
-        padding-bottom: @navbar-padding-vertical;
+        padding-top:    23px;
+        padding-bottom: 23px;
       }
     }
   }
@@ -358,7 +358,9 @@
 // Add a class to make any element properly align itself vertically within the navbars.
 
 .navbar-text {
-  .navbar-vertical-align(@line-height-computed);
+  //.navbar-vertical-align(@line-height-computed);
+  margin-top: 23px;
+  margin-bottom: 23px;
 
   @media (min-width: @grid-float-breakpoint) {
     float: left;
